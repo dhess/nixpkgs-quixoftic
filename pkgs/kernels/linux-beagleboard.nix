@@ -1,3 +1,6 @@
+# Note: this derivation is not currently used, but it's left here as
+# an example/reference of how to overlay a BeagleBoard kernel.
+
 { stdenv, hostPlatform, fetchFromGitHub, perl, buildLinux, ubootTools, dtc, ... } @ args:
 
 let

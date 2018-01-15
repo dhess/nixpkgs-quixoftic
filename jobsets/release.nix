@@ -78,13 +78,13 @@ let
       constituents = with jobs; [
         bb-org-overlays.armv7l-linux
         haskellPackages.pinpon.armv7l-linux
-        linux_beagleboard.armv7l-linux
         pinpon.armv7l-linux
 
         ## These aren't really part of the overlay (except possibly to
         ## enable Hydra builds on them), but we test them here anyway
         ## as we're the upstream.
         
+        linux_beagleboard.armv7l-linux
         haskellPackages.hpio.armv7l-linux
         haskellPackages.mellon-core.armv7l-linux
         haskellPackages.mellon-gpio.armv7l-linux
